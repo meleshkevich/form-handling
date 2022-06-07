@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+article {
+  padding: 1em;
+  margin: 1em 0;
+  background: #efefef;
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+}
+article img {
+  width: 100%;
+}
+article h1 {
+  /* margin-top: 0; */
+}
+article p.story {
+  font-weight: bold;
+}
+article p {
+  margin: 0.5em 0;
+}
+button {
+  margin-bottom: 3em;
+}
